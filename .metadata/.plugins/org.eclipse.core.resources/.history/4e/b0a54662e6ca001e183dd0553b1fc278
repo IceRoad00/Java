@@ -1,0 +1,5 @@
+package com.youngkeun.realEstate.service;
+
+public interface AuthService {
+
+}

@@ -1,0 +1,5 @@
+package com.youngkeun.realEstate.interfaces;
+
+public enum Code {
+
+}

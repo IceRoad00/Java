@@ -1,0 +1,6 @@
+package com.youngkeun.realEstate.repository;
+
+public interface EmailAuthenticationRepository {
+	
+
+}

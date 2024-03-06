@@ -1,0 +1,10 @@
+package com.youngkeun.realEstate.controller;
+
+import com.youngkeun.realEstate.dto.reponse.CheckIdResponseDto;
+import com.youngkeun.realEstate.dto.request.CheckIdRequestDto;
+
+public interface AuthController {
+	CheckIdResponseDto checkId(CheckIdRequestDto request);
+	sendCode(SendCodeRequestDto request);
+
+}

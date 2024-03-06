@@ -1,0 +1,5 @@
+package com.youngkeun.realEstate.dto.request;
+
+public class CheckrequestDto {
+
+}

@@ -1,0 +1,17 @@
+package myfirstproject;
+
+import java.util.Scanner;
+
+public class Sddd {
+	public static void main(String[] args) {
+             Scanner scan = new Scanner(System.in);
+	          String id = scan.next();
+	     
+	        if(id.equals(id)){
+	            System.out.println(id + "??!");
+	        
+	        } else {
+	            System.out.println(id);
+	        }
+	      
+	    }}

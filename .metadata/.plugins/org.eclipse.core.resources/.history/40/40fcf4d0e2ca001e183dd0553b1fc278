@@ -1,0 +1,5 @@
+package com.youngkeun.realEstate.dto.reponse;
+
+public class CheckIdResponseDto {
+
+}

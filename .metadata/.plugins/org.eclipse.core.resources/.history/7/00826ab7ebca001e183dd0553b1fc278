@@ -1,0 +1,13 @@
+package com.youngkeun.realEstate.repository.implement;
+
+import com.youngkeun.realEstate.repository.UserRepository;
+
+public class UserRepositoryImplement implements UserRepository {
+
+	@Override
+	public boolean existsById(String id) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

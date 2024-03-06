@@ -1,0 +1,9 @@
+package com.youngkeun.realEstate.service;
+
+import com.youngkeun.realEstate.dto.reponse.CheckIdResponseDto;
+import com.youngkeun.realEstate.dto.request.CheckIdRequestDto;
+
+public interface AuthService {
+	CheckIdResponseDto checkId(CheckIdRequestDto dto);
+
+}

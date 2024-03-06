@@ -1,0 +1,14 @@
+package com.youngkeun.realEstate.controller.implement;
+
+import com.youngkeun.realEstate.controller.AuthController;
+import com.youngkeun.realEstate.dto.reponse.CheckIdResponseDto;
+import com.youngkeun.realEstate.dto.request.CheckIdRequestDto;
+
+public class AuthControllerImplement implements AuthController {
+
+	@Override
+	public CheckIdResponseDto checkId(CheckIdRequestDto request) {
+		return null;
+	}
+
+}

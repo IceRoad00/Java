@@ -1,0 +1,10 @@
+package com.youngkeun.realEstate.dto.reponse;
+
+import com.youngkeun.realEstate.interfaces.Code;
+
+public class SendCodeResponseDto {
+	
+	private Code code;
+	private String data;
+
+}

@@ -1,0 +1,11 @@
+package com.youngkeun.realEstate.dto.request;
+
+public class CheckIdrequestDto {
+	
+	private String id;
+	
+	public String GetId() {
+		return id;
+	}
+
+}

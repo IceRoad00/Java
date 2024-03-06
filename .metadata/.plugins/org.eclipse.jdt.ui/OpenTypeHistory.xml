@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=realEstate/src&lt;com.youngkeun.realEstate.controller{AuthController.java[AuthController" modifiers="513" timestamp="1707893434986"/>
+    <typeInfo handle="=realEstate/src&lt;com.youngkeun.realEstate.service{AuthService.java[AuthService" modifiers="513" timestamp="1707894680019"/>
+    <typeInfo handle="=realEstate/src&lt;com.youngkeun.realEstate.repository{UserRepository.java[UserRepository" modifiers="513" timestamp="1707887803952"/>
+    <typeInfo handle="=realEstate/src&lt;com.youngkeun.realEstate.repository{EmailAuthenticationRepository.java[EmailAuthenticationRepository" modifiers="513" timestamp="1707897796323"/>
+</typeInfoHistroy>

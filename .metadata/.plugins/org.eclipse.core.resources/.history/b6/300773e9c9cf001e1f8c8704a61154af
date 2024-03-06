@@ -1,0 +1,25 @@
+package myfirstproject;
+
+import java.util.Scanner;
+
+public class Myfirstprogram {
+
+	public static void main(String[] args) {
+
+		/*
+		작성자 : 박영근
+		작성일 : 2024-01-18
+		내용 : 문자열 출력 프로그램
+		*/
+		
+		// 아래 코드는 문자 출력 코드입니다.
+		// 단축키 sysout
+		System.out.println("Hello world!");
+		
+		Scanner sc = new Scanner(System.in);
+        String a = sc.next();
+        System.out.println(a);
+      
+	}
+
+}

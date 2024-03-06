@@ -1,0 +1,45 @@
+package com.youngkeun.realEstate.repository.implement;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+import com.youngkeun.realEstate.repository.EmailAuthenticationRepository;
+import com.youngkeun.realEstate.repository.SQLException;
+
+public class EmailAuthenticationRepositoryImplement implements EmailAuthenticationRepository {
+	
+	private Connection connection;
+	public EmailAuthenticationRepositoryImplement () {
+		try {
+			
+			Class.forName("com.mysql.cj.jdbc.Driver");
+			
+			final String URL = "jdbc:mysql://127.0.0.1:3306/real_estate";
+			final String USERNAME = "root";
+			final String USERPASSWORD = "root";
+			
+			this.connection = DriverManager.getConnection(URL, USERNAME, USERPASSWORD);
+			
+		} catch (Exception exception) {
+			exception.printStackTrace();
+			
+		}
+	}
+
+	@Override
+	public boolean existsByEmail(String email) throws SQLException {
+		
+		boolean result = false;
+		
+		final String SQL = "SELECT * FROM email_authentication WHERE email = ?";
+		
+		PreparedStatement preparedStatement = connection PreparedStatement(SQL);
+		return false;
+	}
+
+	@Override
+	public void save(String email, String AuthenticationCode) throws SQLException{
+
+	}
+
+}
